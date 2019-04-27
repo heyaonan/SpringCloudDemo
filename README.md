@@ -1,2 +1,2 @@
 # SpringCloudDemo
-根据《Spring cloud微服务实战》学习springcloud微服务框架
+该工程主要是依据《Spring cloud微服务实战》这本书来学习springcloud微服务框架，希望能够将其中的例子亲自写一遍以加深印象。
