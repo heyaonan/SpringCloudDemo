@@ -1,0 +1,83 @@
+[INFO ] 2019-05-06 17:34:59 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 17104 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 17:34:59 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 17:34:59 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 17:34:59 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 17:34:59 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 17:34:59 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 17:34:59 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 17:34:59 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1719 ms
+[INFO ] 2019-05-06 17:34:59 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:34:59 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:34:59 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 17:54:44 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 8980 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 17:54:44 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 17:54:44 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 17:54:44 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 17:54:44 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 17:54:44 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 17:54:44 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 17:54:44 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 944 ms
+[INFO ] 2019-05-06 17:54:44 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:54:44 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:54:44 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 17:58:59 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 24160 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 17:58:59 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 17:58:59 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 17:58:59 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 17:58:59 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 17:58:59 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 17:58:59 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 17:58:59 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 798 ms
+[INFO ] 2019-05-06 17:58:59 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:58:59 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 17:58:59 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 17:58:59 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-05-06 18:01:04 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 13140 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 18:01:04 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 18:01:04 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 18:01:04 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 18:01:04 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 18:01:04 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 18:01:04 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 18:01:04 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 967 ms
+[INFO ] 2019-05-06 18:01:04 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 18:01:04 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 18:01:04 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 18:01:04 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-05-06 20:27:51 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 28580 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 20:27:51 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 20:27:51 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 20:27:51 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:27:51 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 20:27:51 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 20:27:51 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 20:27:51 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 839 ms
+[INFO ] 2019-05-06 20:27:51 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 20:27:51 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 20:27:51 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 20:27:51 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-05-06 20:31:43 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 23052 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-06 20:31:43 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-06 20:31:43 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-06 20:31:43 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-06 20:31:43 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 786 ms
+[INFO ] 2019-05-06 20:31:43 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-06 20:31:43 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-06 20:31:43 [main] o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+[INFO ] 2019-05-06 20:31:43 [main] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:31:43 [main] o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-06 20:31:43 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[INFO ] 2019-05-06 20:31:43 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

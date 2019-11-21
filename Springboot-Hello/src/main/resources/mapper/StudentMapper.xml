@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--用户表-->
+<mapper namespace="com.nice.login.dao.StudentMapper">
+
+    <resultMap id="studentMap" type="student">
+        <id column="id" property="id" javaType="int"/>
+        <result column="name" property="name" javaType="string"/>
+        <result column="age" property="age" javaType="int"/>
+        <result column="mail" property="mail" javaType="string"/>
+        <result column="id_card" property="id_card" javaType="string"/>
+        <result column="class" property="classmate" javaType="string"/>
+        <result column="grade" property="grade" javaType="string"/>
+        <result column="birthday" property="birthday" javaType="date"/>
+    </resultMap>
+<!--resultType和resultMap是不能同时使用的-->
+    <select id="getStudentList" resultMap="studentMap" flushCache="true">
+        SELECT *
+        FROM student;
+    </select>
+
+    <select id="getStudent" resultMap="studentMap" parameterType="int">
+        SELECT *
+        FROM student WHERE  id=#{id};
+    </select>
+
+    <insert id="insert"   useGeneratedKeys="true" parameterType="student" keyProperty="student.id">
+        insert into student (name,age,mail,id_card,class,grade,birthday)
+        values
+           (#{student.name},#{student.age},#{student.mail},#{student.id_card},#{student.classmate},
+           #{student.grade},#{student.birthday})
+    </insert>
+
+    <delete id="delete" parameterType="int">
+        delete from student where id =#{id}
+    </delete>
+
+    <update id="update" parameterType="student">
+        update student set name=#{student.name},mail=${student.mail},address=#{student.address},
+        id_card=#{student.id_card},class=#{student.classmate},grade=#{student.grade},birthday=#{student.birthday}
+        where id =#{student.id}
+    </update>
+
+    <insert id="batchInsert"  parameterType="list">
+        insert into student (`name`,age,mail,id_card,class,grade,birthday)
+        values
+        <foreach collection="list" item="student" separator=",">
+            ( #{student.name},#{student.age},#{student.mail},#{student.id_card},#{student.classmate},
+            #{student.grade},#{student.birthday})
+        </foreach>
+
+    </insert>
+
+
+    <select id="selectByCondition" parameterType="studentVo" resultMap="studentMap">
+        select * from student where
+        <if test="student.name !=null">
+             name like CONCAT(CONCAT('%',#{student.name}),'%')
+        </if>
+        <if test="student.grade !=null and student.grade !='' ">
+            and grade like CONCAT(CONCAT('%',#{student.grade}),'%')
+        </if>
+        <if test="student.firstDate !=null">
+            and birthday <![CDATA[>]]> #{student.firstDate}
+        </if>
+        <if test="student.lastDate !=null">
+            and birthday <![CDATA[<]]> #{student.lastDate}
+        </if>
+         order by birthday
+    </select>
+
+    <select id="selectByConditionLimit"  resultMap="studentMap">
+        select * from student where
+        <if test="student.name !=null">
+            name like CONCAT(CONCAT('%',#{student.name}),'%')
+        </if>
+        <if test="student.grade !=null and student.grade !='' ">
+            and grade like CONCAT(CONCAT('%',#{student.grade}),'%')
+        </if>
+        <if test="student.firstDate !=null">
+            and birthday <![CDATA[>]]> #{student.firstDate}
+        </if>
+        <if test="student.lastDate !=null">
+            and birthday <![CDATA[<]]> #{student.lastDate}
+        </if>
+        order by birthday
+        limit #{start},#{pageSize}
+    </select>
+
+
+
+
+
+
+</mapper>

@@ -1,0 +1,22 @@
+[INFO ] 2019-05-05 15:34:48 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 19756 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-05 15:34:48 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-05 15:34:48 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-05 15:34:48 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-05 15:34:48 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-05 15:34:48 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-05 15:34:48 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-05 15:34:48 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1795 ms
+[INFO ] 2019-05-05 15:34:48 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-05 15:34:48 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-05 15:34:48 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 2019-05-05 15:36:22 [main] c.n.S.SpringbootDynamicDatasourceApplication - Starting SpringbootDynamicDatasourceApplication on BAGE with PID 17432 (E:\document\idea_workspace\Springboot-DynamicDatasource\target\classes started by bage in E:\document\idea_workspace\Springboot-DynamicDatasource)
+[INFO ] 2019-05-05 15:36:22 [main] c.n.S.SpringbootDynamicDatasourceApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-05 15:36:22 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+[INFO ] 2019-05-05 15:36:22 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+[INFO ] 2019-05-05 15:36:22 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2019-05-05 15:36:22 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 2019-05-05 15:36:22 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2019-05-05 15:36:22 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 790 ms
+[INFO ] 2019-05-05 15:36:22 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-05 15:36:22 [main] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[INFO ] 2019-05-05 15:36:22 [main] o.a.catalina.core.StandardService - Stopping service [Tomcat]
